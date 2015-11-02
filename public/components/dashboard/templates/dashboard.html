@@ -1,0 +1,29 @@
+<div class="card">
+    <lx-tabs>
+        <lx-tab heading="User">
+            <p class="p+">Your friends list</p>
+            <p>{{friendsListFromServer}}</p>
+        </lx-tab>
+
+        <lx-tab heading="Friends">
+            <p class="p+">Find friends</p>
+
+            <div flex-item>
+                <lx-select ng-model="selects.selectedPersons2" placeholder="Add friends" choices="findFriends" multiple floating-label>
+                    <lx-select-selected>
+                        {{$selected.fullname}}
+                    </lx-select-selected>
+
+                    <lx-select-choices>
+                        {{$choice.fullname}}
+                    </lx-select-choices>
+                </lx-select>
+            </div>  
+            <button class="btn btn--m btn--blue btn--raised" ng-click="addFriends(selects.selectedPersons2)" lx-ripple>Add friends</button>          
+        </lx-tab>
+
+        <lx-tab heading="Update details">
+            <p class="p+">Lorem Ipsum Content 3</p>
+        </lx-tab>
+    </lx-tabs>
+</div>

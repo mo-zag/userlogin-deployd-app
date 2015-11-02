@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'angular-messages' ]
+2 info using npm@2.1.2
+3 info using node@v0.10.3
+4 silly cache add args [ 'angular-messages', null ]
+5 verbose cache add spec angular-messages
+6 silly cache add parsed spec { raw: 'angular-messages',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'angular-messages',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 silly addNonLocal parsed spec { raw: 'angular-messages',
+7 silly addNonLocal   scope: null,
+7 silly addNonLocal   name: 'angular-messages',
+7 silly addNonLocal   rawSpec: '',
+7 silly addNonLocal   spec: '*',
+7 silly addNonLocal   type: 'range' }
+8 verbose addNamed angular-messages@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'angular-messages', range: '*', hasData: false }
+12 verbose mapToRegistry name angular-messages
+13 verbose mapToRegistry uri https://registry.npmjs.org/angular-messages
+14 verbose request on initialization, where is /angular-messages
+15 verbose request after pass 1, where is /angular-messages
+16 verbose request url raw /angular-messages
+17 verbose request resolving registry [ 'https://registry.npmjs.org/', './angular-messages' ]
+18 verbose request after pass 2, where is https://registry.npmjs.org/angular-messages
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 01:02:12
+21 verbose request id 8f9e9a852521bbed
+22 http request GET https://registry.npmjs.org/angular-messages
+23 http 200 https://registry.npmjs.org/angular-messages
+24 silly registry.get cb [ 200,
+24 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"5LPR7ZL8QLGXVQ0W81DYN2B0K"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '50540',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     date: 'Mon, 02 Nov 2015 01:02:12 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-ams4121-AMS',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1446426132.557013,VS0,VE100',
+24 silly registry.get     vary: 'Accept' } ]
+25 silly addNameRange number 2 { name: 'angular-messages', range: '*', hasData: true }
+26 silly addNameRange versions [ 'angular-messages',
+26 silly addNameRange   [ '1.3.0-rc.5',
+26 silly addNameRange     '1.3.0',
+26 silly addNameRange     '1.3.1',
+26 silly addNameRange     '1.3.2',
+26 silly addNameRange     '1.3.3',
+26 silly addNameRange     '1.3.4',
+26 silly addNameRange     '1.3.5',
+26 silly addNameRange     '1.3.6',
+26 silly addNameRange     '1.3.7',
+26 silly addNameRange     '1.3.8',
+26 silly addNameRange     '1.4.0-beta.0',
+26 silly addNameRange     '1.3.9',
+26 silly addNameRange     '1.3.10',
+26 silly addNameRange     '1.4.0-beta.1',
+26 silly addNameRange     '1.4.0-beta.2',
+26 silly addNameRange     '1.3.11',
+26 silly addNameRange     '1.4.0-beta.3',
+26 silly addNameRange     '1.3.12',
+26 silly addNameRange     '1.3.13',
+26 silly addNameRange     '1.4.0-beta.4',
+26 silly addNameRange     '1.3.14',
+26 silly addNameRange     '1.4.0-beta.5',
+26 silly addNameRange     '1.4.0-beta.6',
+26 silly addNameRange     '1.3.15',
+26 silly addNameRange     '1.4.0-rc.0',
+26 silly addNameRange     '1.4.0-rc.1',
+26 silly addNameRange     '1.4.0-rc.2',
+26 silly addNameRange     '1.4.0',
+26 silly addNameRange     '1.3.16',
+26 silly addNameRange     '1.4.1',
+26 silly addNameRange     '1.4.2',
+26 silly addNameRange     '1.3.17',
+26 silly addNameRange     '1.4.3',
+26 silly addNameRange     '1.4.4',
+26 silly addNameRange     '1.3.18',
+26 silly addNameRange     '1.4.5',
+26 silly addNameRange     '1.3.19',
+26 silly addNameRange     '1.4.6',
+26 silly addNameRange     '1.5.0-beta.0',
+26 silly addNameRange     '1.3.20',
+26 silly addNameRange     '1.4.7' ] ]
+27 verbose addNamed angular-messages@1.4.7
+28 silly addNamed semver.valid 1.4.7
+29 silly addNamed semver.validRange 1.4.7
+30 verbose addRemoteTarball [ 'https://registry.npmjs.org/angular-messages/-/angular-messages-1.4.7.tgz',
+30 verbose addRemoteTarball   '6a2dbff0cfda0bd3f661b74731e68d994e9cfed4' ]
+31 info retry fetch attempt 1 at 01:02:12
+32 info attempt registry request try #1 at 01:02:12
+33 http fetch GET https://registry.npmjs.org/angular-messages/-/angular-messages-1.4.7.tgz
+34 http fetch 200 https://registry.npmjs.org/angular-messages/-/angular-messages-1.4.7.tgz
+35 silly fetchAndShaCheck shasum 6a2dbff0cfda0bd3f661b74731e68d994e9cfed4
+36 verbose addTmpTarball already have metadata; skipping unpack
+37 silly install resolved [ { name: 'angular-messages',
+37 silly install resolved     version: '1.4.7',
+37 silly install resolved     description: 'AngularJS module that provides enhanced support for displaying messages within templates',
+37 silly install resolved     main: 'index.js',
+37 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+37 silly install resolved     repository:
+37 silly install resolved      { type: 'git',
+37 silly install resolved        url: 'https://github.com/angular/angular.js.git' },
+37 silly install resolved     keywords: [ 'angular', 'framework', 'browser', 'client-side' ],
+37 silly install resolved     author:
+37 silly install resolved      { name: 'Angular Core Team',
+37 silly install resolved        email: 'angular-core+npm@google.com' },
+37 silly install resolved     license: 'MIT',
+37 silly install resolved     bugs: { url: 'https://github.com/angular/angular.js/issues' },
+37 silly install resolved     homepage: 'http://angularjs.org',
+37 silly install resolved     gitHead: '8753fbb98fc6fa7e9063ce9dee5e2eca97a517cb',
+37 silly install resolved     _id: 'angular-messages@1.4.7',
+37 silly install resolved     _shasum: '6a2dbff0cfda0bd3f661b74731e68d994e9cfed4',
+37 silly install resolved     _from: 'angular-messages@*',
+37 silly install resolved     _npmVersion: '2.0.2',
+37 silly install resolved     _nodeVersion: '0.10.26',
+37 silly install resolved     _npmUser: { name: 'angularcore', email: 'angular-core+npm@google.com' },
+37 silly install resolved     maintainers: [ [Object], [Object] ],
+37 silly install resolved     dist:
+37 silly install resolved      { shasum: '6a2dbff0cfda0bd3f661b74731e68d994e9cfed4',
+37 silly install resolved        tarball: 'http://registry.npmjs.org/angular-messages/-/angular-messages-1.4.7.tgz' },
+37 silly install resolved     directories: {},
+37 silly install resolved     _resolved: 'https://registry.npmjs.org/angular-messages/-/angular-messages-1.4.7.tgz' } ]
+38 info install angular-messages@1.4.7 into /Users/mohammedzargham/mean-io/example-tests/demouserapp
+39 info installOne angular-messages@1.4.7
+40 verbose locking angular-messages with /Users/mohammedzargham/.npm/_locks/angular-messages-44be9cb62def9057.lock
+41 warn locking Error: EACCES, open '/Users/mohammedzargham/.npm/_locks/angular-messages-44be9cb62def9057.lock'
+41 warn locking  failed { [Error: EACCES, open '/Users/mohammedzargham/.npm/_locks/angular-messages-44be9cb62def9057.lock']
+41 warn locking   errno: 3,
+41 warn locking   code: 'EACCES',
+41 warn locking   path: '/Users/mohammedzargham/.npm/_locks/angular-messages-44be9cb62def9057.lock' }
+42 verbose stack Error: Attempt to unlock angular-messages, which hasn't been locked
+42 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:54:11)
+42 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:908:5)
+42 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:912:20
+42 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:36:9
+42 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+42 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+42 verbose stack     at Object.oncomplete (fs.js:107:15)
+43 verbose cwd /Users/mohammedzargham/mean-io/example-tests/demouserapp/public
+44 error Darwin 15.0.0
+45 error argv "node" "/usr/local/bin/npm" "install" "angular-messages"
+46 error node v0.10.3
+47 error npm  v2.1.2
+48 error Attempt to unlock angular-messages, which hasn't been locked
+49 error If you need help, you may report this error at:
+49 error     <http://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]

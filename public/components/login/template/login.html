@@ -1,0 +1,22 @@
+<div flex-container="row" flex-gutter="24">
+    <div flex-item>
+			<div class="tc-white-1" flex-container="row">
+				<h1 class="fs-display-3 display-block tc-black-1 center-txt" >Register</h1>	
+			    <div flex-item="12" flex-item-order="1">
+			    	<div class="p++ bgc-white-500">
+				        <form ng-submit="loginUser(loginForm)" name="loginForm" novalidate>   		        
+				            <lx-text-field label="Username" fixed-label="true" icon="account">
+				                <input type="text" class="tc-black-1" ng-model="users.username" name="username" required/>
+				            </lx-text-field>
+				         
+				            <lx-text-field label="Password" fixed-label="true" icon="lock">
+				                <input type="password" ng-model="users.password" class="tc-black-1" name="password" />
+				            </lx-text-field>
+
+				            <input type="submit" class="btn btn--m btn--blue btn--raised" lx-ripple />			            		            
+			    		</form>
+			    	</div>
+			    </div>
+			</div>
+	</div>
+</div>

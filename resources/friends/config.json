@@ -1,0 +1,21 @@
+{
+	"type": "Collection",
+	"properties": {
+		"userId": {
+			"name": "userId",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "userId",
+			"order": 0
+		},
+		"friends": {
+			"name": "friends",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "friends",
+			"order": 1
+		}
+	}
+}
