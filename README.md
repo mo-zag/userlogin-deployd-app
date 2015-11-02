@@ -2,8 +2,8 @@
 
 #### stack
 - deployd http://deployd.com built with node.js
-- Angularjs https://angularjs.org/
-- Lumx http://ui.lumapps.com/
-
+- Angularjs https://angularjs.org
+- Lumx http://ui.lumapps.com
+- mongoDB https://www.mongodb.com/
 
 
